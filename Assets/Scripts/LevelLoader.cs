@@ -27,6 +27,6 @@ public class LevelLoader : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Level1");
     }
 }
